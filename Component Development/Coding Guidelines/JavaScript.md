@@ -24,7 +24,12 @@ The following guidelines apply to JavaScript for components.
 
 - Comment all code using JSDoc style.
 
-- Do check in "commented out" code.
+- Do NOT check in "commented out" code.
+
+- Verify usage of "this" in event handlers and callback functions.
+
+- Use Speak handler to reference assets rather than direct urls.
+
 
 ## Component-Specific Guidelines 
 

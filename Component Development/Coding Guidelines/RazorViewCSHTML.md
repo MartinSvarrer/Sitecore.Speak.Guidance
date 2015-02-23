@@ -8,7 +8,7 @@ The following guidelines apply to CSHTML for components.
 
 - Follow the All Language Styling guidelines.
 
-- Follow the Boostrap coding guidelines.
+- Follow the [Bootstrap Coding Guidelines](https://github.com/mdo/code-guide).
 
 - Do not close the void element.  For example, write `<br>` not `<br />`.
 
@@ -38,8 +38,12 @@ The following guidelines apply to CSHTML for components.
 
 - Avoid having database calls in the Model or Razor view.
 
+- Set HasNestedControls to true when the view supports nested components.
+
 - Prefix the component CSS class with `sc-`.
 
-- Set HasNestedControls to true when the view supports nested components.
+- Prefix all data attribute names with `data-sc-`.
+
+- Use dash (-) to separate words in attribute names (for example, `data-sc-property-name`)
 
 - Use the `data-sc-component` attribute to identify the component.
